@@ -2,8 +2,8 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-ifeq ($(TARGET_QCOM_DISPLAY_VARIANT),caf)
-DISPLAY := display-caf
+ifeq ($(TARGET_QCOM_DISPLAY_VARIANT),caf-7x30)
+DISPLAY := display-caf-7x30
 else
 DISPLAY := display/$(TARGET_BOARD_PLATFORM)
 endif
